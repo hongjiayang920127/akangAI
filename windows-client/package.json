@@ -1,0 +1,28 @@
+{
+  "name": "windows-client",
+  "version": "1.0.0",
+  "description": "Windows客户端应用 - 可独立运行并通过WebSocket与服务器通信",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^28.1.0",
+    "socket.io-client": "^4.7.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.xiaozhi.windows-client",
+    "productName": "设备客户端",
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico"
+    }
+  }
+}
