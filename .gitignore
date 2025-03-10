@@ -1,0 +1,65 @@
+# 依赖目录
+node_modules/
+*/node_modules/
+*/*/node_modules/
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# 构建输出
+dist/
+build/
+out/
+.nuxt/
+.next/
+.output/
+
+# 缓存文件
+.cache/
+.temp/
+.tmp/
+temp/
+tmp/
+
+# 编辑器配置
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 测试覆盖率
+coverage/
+
+# 临时文件
+tmp/
+temp/
+
+# 音频文件（可能很大）
+*.wav
+*.mp3
+*.ogg
+*.flac
+
+# 其他
+.directory
+*.sqlite
+*.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
